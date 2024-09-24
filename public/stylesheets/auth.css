@@ -1,0 +1,9 @@
+.rowWrap {
+  margin: 10px 0px;
+  display: flex;
+  flex-direction: row;
+}
+
+label {
+  margin-right: 20px;
+}

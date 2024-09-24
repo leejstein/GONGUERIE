@@ -2,16 +2,19 @@
   "name": "gonguerie",
   "version": "0.0.1",
   "scripts": {
-    "test": "nodemon ./bin/www",
-    "start": "node ./bin/www"
+    "test": "nodemon --env-file=.env ./bin/www",
+    "start": "node --env-file=.env ./bin/www"
   },
   "author": "Ethan Cho",
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "bcrypt": "^5.1.1",
     "cookie-parser": "^1.4.6",
+    "dotenv": "^16.4.5",
     "ejs": "^3.1.10",
     "express": "^4.19.2",
+    "express-session": "^1.18.0",
     "http-errors": "^2.0.0",
     "jade": "^0.29.0",
     "moment": "^2.30.1",

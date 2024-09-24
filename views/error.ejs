@@ -4,11 +4,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="/stylesheets/global.css">
-  <title><%=message%></title>
+  <title><%=status%></title>
 </head>
 <body>
-  <h1><%=message%></h1>
-  <h2><%=error.status%></h2>
-  
+  <%- include("header") %>
+  <h1>Sorry</h1>
+  <p><%=status%></p>
+  <h2><%=error%></h2>
 </body>
 </html>

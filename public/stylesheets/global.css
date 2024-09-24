@@ -7,7 +7,8 @@ body {
 }
 
 .boxed {
-  margin: auto 100px;
+  width: 1500px;
+  margin: auto;
 }
 
 .textLeftAlign {
@@ -20,6 +21,9 @@ img {
 
 /* header */
 
+.logo {
+  width: 100px;
+}
 .header {
   display: flex;
   flex-direction: row;
